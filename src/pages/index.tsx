@@ -57,6 +57,14 @@ export default function Index() {
           }
         }
       `}</style>
+      <style jsx global>
+        {`
+
+          body {
+            font-family: 'Filson Pro Book', sans-serif;
+          }
+        `}
+      </style>
     </Layout>
   );
 }
