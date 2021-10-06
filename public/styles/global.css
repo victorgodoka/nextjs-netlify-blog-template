@@ -1,10 +1,128 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@font-face {
+  font-family: 'Filson Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Regular'), url('../fonts/FilsonProRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Regular Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Regular Italic'), url('../fonts/FilsonProRegularItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Thin'), url('../fonts/FilsonProThin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Thin Italic'), url('../fonts/FilsonProThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Light'), url('../fonts/FilsonProLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Light Italic'), url('../fonts/FilsonProLightItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Filson Pro Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Book'), url('../fonts/FilsonProBook.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Book Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Book Italic'), url('../fonts/FilsonProBookItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Medium'), url('../fonts/FilsonProMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Medium Italic'), url('../fonts/FilsonProMediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Bold'), url('../fonts/FilsonProBold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Filson Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Bold Italic'), url('../fonts/FilsonProBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Filson Pro Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Heavy'), url('../fonts/FilsonProHeavy.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Filson Pro Heavy Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Heavy Italic'), url('../fonts/FilsonProHeavyItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Filson Pro Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Black'), url('../fonts/FilsonProBlack.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Filson Pro Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Filson Pro Black Italic'), url('../fonts/FilsonProBlackItalic.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
-  font-family: "Ubuntu", sans-serif;
-  background-color: #fff;
+  font-family: "Filson Pro Book", sans-serif;
+  background: #FAFDFF;
   color: #222;
   font-weight: 200;
   height: 100%;
