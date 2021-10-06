@@ -16,7 +16,10 @@ export default function Layout({ children }: Props) {
       </Head>
       <nav>
         <img src={`/images/logo-somos.png`} alt="Logo Somos Diversidade" />
-        <input className="pesquisar" type="text" placeholder="Pesquisar" />
+        <div className="pesquisar">
+          <label htmlFor="pesquisar" className="label-pesquisar"><img src="images/icon-search.svg" /></label>
+          <input id="pesquisar" className="input-pesquisar" type="text" placeholder="Pesquisar" />
+        </div>
       </nav>
       <main>{children}</main>
       <style jsx>
@@ -34,17 +37,28 @@ export default function Layout({ children }: Props) {
           nav {
             text-align: center;
           }
+          .label-pesquisar img {
+            width: 20px;
+            margin-right: 12px;
+          }
           .pesquisar {
             background: #FFFFFF;
             box-shadow: 0px 0.1px 0.3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.2);
             border-radius: 8px;
             width: 100%;
             max-width: 455px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+          }
+          .input-pesquisar {
+            width: calc(100% - 20px);
             border: none;
             outline: none;
-            padding: 12px;
+            background: transparent;
             font-size: 16px;
             line-height: 24px;
+            display: inline-block;
           }
           @media (min-width: 769px) {
             .root {
